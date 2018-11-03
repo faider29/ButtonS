@@ -8,11 +8,12 @@
 
 
     <HorizontalScrollView
+        android:id="@+id/scr1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
               <Button
                   android:id="@+id/btn1"
@@ -26,58 +27,86 @@
                   android:layout_height="wrap_content"
                   android:text="2HOR"/>
             <Button
+                android:id="@+id/btn3"
+                android:layout_toRightOf="@+id/btn2"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="3HOR"/>
             <Button
+                android:id="@+id/btn4"
+                android:layout_toRightOf="@+id/btn3"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="4HOR"/>
             <Button
+                android:id="@+id/btn5"
+                android:layout_toRightOf="@+id/btn4"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="5HOR"/>
             <Button
+                android:id="@+id/btn6"
+                android:layout_toRightOf="@+id/btn5"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="6HOR"/>
             <Button
+                android:id="@+id/btn7"
+                android:layout_toRightOf="@+id/btn6"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="7HOR"/>
             <Button
+                android:id="@+id/btn8"
+                android:layout_toRightOf="@+id/btn7"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="8HOR"/>
             <Button
+                android:id="@+id/btn9"
+                android:layout_toRightOf="@+id/btn8"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="9HOR"/>
             <Button
+                android:id="@+id/btn10"
+                android:layout_toRightOf="@+id/btn9"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="10HOR"/>
             <Button
+                android:id="@+id/btn11"
+                android:layout_toRightOf="@+id/btn10"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="11HOR"/>
             <Button
+                android:id="@+id/btn12"
+                android:layout_toRightOf="@+id/btn11"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="12HOR"/>
             <Button
+                android:id="@+id/btn13"
+                android:layout_toRightOf="@+id/btn12"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="13HOR"/>
             <Button
+                android:id="@+id/btn14"
+                android:layout_toRightOf="@+id/btn13"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="14HOR"/>
             <Button
+                android:id="@+id/btn15"
+                android:layout_toRightOf="@+id/btn14"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="15HOR"/>
             <Button
+                android:id="@+id/btn16"
+                android:layout_toRightOf="@+id/btn15"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="16HOR"/>
@@ -87,16 +116,15 @@
 
 
     <ScrollView
+        android:id="@+id/scr2"
+        android:layout_below="@+id/scr1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="60dp">
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
             android:orientation="vertical">
 
             <Button
